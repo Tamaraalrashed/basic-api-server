@@ -9,17 +9,12 @@ const morgan=require('morgan');
 //modules
 const errorHandler=require('./error-handlers/500.js');
 const notFoundHandler=require('./error-handlers/404.js');
-// const logger=require('./middlewares/logger.js');
-// const validator=require('./middlewares/validator.js');
 const foodRoutes=require('./routes/food.js');
 const clothesRoutes=require('./routes/clothes.js');
 
 
 //my app
 const app=express();
-
-
-
 
 
 app.use(express.json());
@@ -29,9 +24,6 @@ app.use('/api/v1/food', foodRoutes);
 app.use('/api/v1/clothes', clothesRoutes);
 app.use('*', notFoundHandler);
 app.use(errorHandler);
-// app.use(logger);
-
-
 
 module.exports={
   app:app,
