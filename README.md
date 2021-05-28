@@ -1,12 +1,14 @@
 # Basic-api-server
 
-## Deployment Test
 
-Author: Tamara Alrashed
+## Author: Tamara Alrashed
 
-- [submission PR](https://github.com/Tamaraalrashed/basic-api-server/pull/1)
-- [tests report](https://github.com/Tamaraalrashed/basic-api-server/actions)
-- [front-end](https://tamara--basic-api-server.herokuapp.com/)
+
+### [Submission PR](https://github.com/Tamaraalrashed/basic-api-server/pull/2)
+
+### [Tests Report](https://github.com/Tamaraalrashed/basic-api-server/actions)
+### [Deployement](https://tamara--basic-api-server.herokuapp.com/)
+
 
 ## Setup
 
@@ -20,3 +22,7 @@ Author: Tamara Alrashed
 ## Tests
 
 Unit Tests: `npm run test`
+
+
+## UML DIAGRAM
+![img](./src/IMG/class-03UML.JPG)
